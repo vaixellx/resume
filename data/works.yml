@@ -1,8 +1,6 @@
 - company: 'Opn.Store'
   location: 'Bangkok, Thailand'
   position:
-    - title: 'Senior Engineering Manager'
-      period: 'Feb 2021 - Present'
     - title: 'Director of Engineering'
       period: 'Aug 2021 - Jan 2022'
   projects:
