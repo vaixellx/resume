@@ -1,0 +1,18 @@
+<h2 class="mb-3">
+  <i class="fas fa-laptop-code mr-1"></i>
+  Technical Skills
+</h2>
+
+<dl class="row">
+  <dt class="col-4 col-md-2">Languages</dt>
+  <dd class="col-8 col-md-10"><%= data.personal_information.technical_skills.languages.join(', ') %></dd>
+
+  <dt class="col-4 col-md-2">Frameworks</dt>
+  <dd class="col-8 col-md-10"><%= data.personal_information.technical_skills.frameworks.join(', ') %></dd>
+
+  <dt class="col-4 col-md-2">Tools</dt>
+  <dd class="col-8 col-md-10"><%= data.personal_information.technical_skills.tools.join(', ') %></dd>
+
+  <dt class="col-4 col-md-2">Other</dt>
+  <dd class="col-8 col-md-10"><%= data.personal_information.technical_skills.other.join(', ') %></dd>
+</dl>

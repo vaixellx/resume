@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+
+    <meta property="og:title" content="P<%= data.personal_information.name %> | Resume">
+    <meta property="og:image" content="<%= image_path("og-poster.jpg") %>">
+    <meta property="og:description" content="Resume of <%= data.personal_information.name %>">
+    <meta property="og:site_name" content="vaixellx">
+
+    <title><%= data.personal_information.name %> | Resume</title>
+
+    <%= stylesheet_link_tag "site" %>
+    <script src="https://kit.fontawesome.com/ce6165bb2d.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="<%= page_classes %>" data-spy="scroll" data-target="#scroll-spy" data-offset="86">
+    <div class="a4-container">
+      <%= yield %>
+    </div>
+  </body>
+</html>

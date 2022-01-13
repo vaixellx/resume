@@ -1,0 +1,93 @@
+- company: 'Opn.Store'
+  location: 'Bangkok, Thailand'
+  position:
+    - title: 'Senior Engineering Manager'
+      period: 'Feb 2021 - Present'
+    - title: 'Director of Engineering'
+      period: 'Aug 2021 - Jan 2022'
+  projects:
+    - title: 'Opn.Store'
+      technology: 'Javascript, Typescript, NodeJS, NextJS, NestJS, ReactJS, GraphQL, RabbitMQ, Postgresql'
+      descriptions:
+      - Omni channels e-commerce platforms.
+      - Manage multiple squads of web developer to ensure quality and delivered in time.
+      - Make a technical decision, review the design, design database structure.
+- company: 'Eventpop'
+  location: 'Bangkok, Thailand'
+  position:
+    - title: 'Chief Technology Officer'
+      period: 'May 2018 - Jul 2021'
+    - title: 'Full Stack Developer'
+      period: 'Oct 2015 - Apr 2018'
+  projects:
+    - title: 'Fieldwave'
+      technology: 'Ruby on Rails, Javascript, RFID Tag, InfluxDB'
+      descriptions:
+      - Event attendees tracker using RFID tag.
+      - Create dashboard to summarize density of attendees in each area.
+      - Create attendee map to track their journey.
+      - Find attendees list who might possibly contacted with COVID-19 suspects.
+    - title: 'Eventpop Virtualrun'
+      technology: 'Ruby on Rails, ReactJS, NodeJS, Ant.d'
+      descriptions:
+      - Platform for virtual competition. It help organizer to gather submission result using image processing to detect result from uploaded image.
+      - Create tool to generate e-BIB and e-Cer when runner attend to the competition and finished the goal.
+      - Manage web developer team to ensure quality and delivered in time.
+      - Make a technical decision, review the design, design database structure.
+    - title: 'POP LIVE'
+      technology: 'Firebase, ReactJS, VideoJS'
+      descriptions:
+      - Online streaming service which offered high quality streaming for Entertainment, Education, Conference events.
+      - Manage web developer team to ensure quality and delivered in time.
+      - Make a technical decision, review the design, design database structure.
+    - title: 'Spark by Eventpop'
+      technology: 'Ruby on Rails, jQuery, Bootstrap, NFC'
+      descriptions:
+      - Cashless payment and access control for event. Working NFC chip and fully support offline
+      - Design the architecture for both frontend, backend, mobile applications.
+      - Design and develop data syncing flow between mobile application and server.
+      - Design and develop monitoring tools.
+      - Manage both web and mobile developer team to ensure quality and delivered in time.
+      - Make a technical decision, review the design, design database structure, design data flow between mobile application and server.
+    - title: 'Eventpop Ticketing Platform'
+      technology: 'Ruby on Rails, jQuery, ReactJS, Bootstrap'
+      descriptions:
+      - One-stop ticketing service in Thailand, included with a ton of features such as seating ticket, promotion mechanism, support complex purchasing conditions and limitation, pre-registration and invitation, integrate with online streaming service (Poplive, Zoom).
+      - Manage both web and mobile developer team to ensure quality and delivered in time.
+      - Make a technical decision, review the design, design database structure, design data flow between mobile application and server.
+      - Develop ton of features such as seating, credit card discount, online streaming service integration.
+      - Design and develop admin tools for customer support with ton of features.
+- company: 'OOZOU'
+  location: 'Bangkok, Thailand'
+  position:
+    - title: 'Ruby on Rails Developer'
+      period: 'May 2013 - Sep 2015'
+  projects:
+    - title: 'Jiffyshirts'
+      technology: 'Ruby on Rails, jQuery, Bootstrap, AngularJS, Vagrant'
+      descriptions:
+        - Wholesales T-Shirt e-commerce website based in USA.
+        - Work closely with UX/UI designer to revamp old school desktop site to make it usable on mobile.
+        - Optimize performance of frontend.
+    - title: 'Slimwiki'
+      technology: 'Ruby on Rails, AngularJS, Bootstrap, Coffeescript'
+      descriptions:
+        - A beautiful wiki for teams, it’s first OOZOU in-house product.
+        - Optimize wiki editor performance by reducing event binding.
+        - Fix wiki editor bugs and make it more stable
+    - title: 'Great.ly'
+      technology: 'Ruby on Rails, jQuery'
+      descriptions:
+        - E-commerce platform for handmaded art and product.
+        - Lead developer who made the technical decision from scratch.
+        - Gather requirements from customer directly.
+- company: 'Inotechne'
+  location: 'Bangkok, Thailand'
+  position:
+    - title: 'Ruby on Rails Developer'
+      period: 'Oct 2011 - Apr 2013'
+- company: 'MGB Software'
+  location: 'Bangkok, Thailand'
+  position:
+    - title: 'Ruby on Rails Developer'
+      period: 'Apr 2011 - Sep 2011'

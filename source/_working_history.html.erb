@@ -1,0 +1,45 @@
+<h2 class="mb-3">
+  <i class="fas fa-briefcase mr-1"></i>
+  Working Experiences
+</h2>
+
+<% data.works.each do |work| %>
+  <div class="mb-4">
+    <h3 class="mb-1">
+      <%= work.company %>,
+      <small class="text-muted"><%= work.location %></small>
+    </h3>
+
+    <div class="position ml-3">
+      <% work.position.each do |position| %>
+        <div class="row">
+          <div class="col-12 col-sm-5 col-md-3 col-lg-2">
+            <%= position.period %>
+          </div>
+
+          <div class="col-12 col-sm-7 col-md-9 col-lg-10">
+            <strong><%= position.title %></strong>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <% if work.projects.present? %>
+      <ul>
+        <% work.projects.each do |project| %>
+          <li class="mt-2">
+            <strong class="mr-3"><%= project.title %></strong><br class="d-block d-md-none" />
+            <span class="text-muted"><%= project.technology %></span>
+
+            <ul>
+              <% project.descriptions.each do |description| %>
+                <li><%= description %></li>
+              <% end %>
+            </ul>
+
+          </li>
+        <% end %>
+      </ul>
+    <% end %>
+  </div>
+<% end %>

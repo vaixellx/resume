@@ -1,0 +1,46 @@
+name: 'Pathompon Jirawanidchakorn'
+nickname: 'Boat'
+location: 'Bangkok, Thailand'
+email: 'boat.pathompon@gmail.com'
+github: 'vaixellx'
+phone: '+668-3565-6592'
+linkedin: 'https://www.linkedin.com/in/pathompon-jirawanidchakorn-09413785/'
+bio: >
+  I’m 10 years+ experience Full-Stack Web Developer.
+  I'm passionate in making a good handcrafted product.
+  I'm a lazy developer who love challenge and solving the problems using minimum effort.
+  I also able to do people management and building the team  with good and strong culture.
+education:
+  title: 'B.S. Degree in Computer Science'
+  university: 'Kasetsart University, Bangkok Thailand'
+  period: '2007 - 2011'
+english_level:
+  reading: 'Excellent'
+  writing: 'Good'
+  speaking: 'Communicable'
+  listening: 'Communicable'
+technical_skills:
+  languages:
+    - Ruby
+    - Javascript
+    - Node.js
+    - Typescript
+    - SQL
+  frameworks:
+    - Ruby on Rails
+    - ReactJS
+    - AngularJS
+    - Bootstrap
+    - TailwindCSS
+  tools:
+    - Git
+    - Selenium
+    - Zsh
+    - Middleman
+    - Gatsby
+    - Strapi
+  other:
+    - Firebase
+    - Postgresql
+    - AWS
+    - InfluxDB

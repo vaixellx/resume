@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+
+    <meta property="og:title" content="<%= current_page.data.title || yield_content(:title) %> | จินตนาการ สืบสาน วรรณกรรมไทยกับอินทัช ปีที่ 14 - Intouchstation">
+    <meta property="og:type" content="event">
+    <meta property="og:image" content="<%= yield_content(:og_poster) || "https://www.intouchstation.com/#{image_path(current_page.data.og_poster || "og-poster.jpg")}" %>">
+    <meta property="og:description" content="จินตนาการ สืบสาน วรรณกรรมไทยกับอินทัช ปีที่ 14">
+    <meta property="og:site_name" content="intouchstation.com">
+    <meta name="keywords" content="intouchstation, จินตนาการ, สืบสาน, วรรณกรรมไทยกับอินทัช, ปีที่ 14, ฉันรักเมืองไทย, รักษ์สิ่งแวดล้อม รักษ์โลกของเรา, อินทัช" />
+    <meta name="facebook-domain-verification" content="97ns0x56b2jp0llt0udvtztclbg1cb" />
+
+    <title><%= current_page.data.title || yield_content(:title) %> | จินตนาการ สืบสาน วรรณกรรมไทยกับอินทัช ปีที่ 14 - Intouchstation</title>
+
+    <%= stylesheet_link_tag "site" %>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56528195-24"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-56528195-24');
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2014699728660048');
+    fbq('addPixelId', '451161449125283');
+    fbq('addPixelId', '182893867095730');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2014699728660048&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+  </head>
+  <body class="<%= page_classes %>" data-spy="scroll" data-target="#scroll-spy" data-offset="86">
+    <%= yield %>
+
+    <!-- AddToAny BEGIN -->
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <!-- AddToAny END -->
+
+    <%= javascript_include_tag "site" %>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/th_TH/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v9.0&appId=522781641198840&autoLogAppEvents=1" nonce="w8a1wNHm"></script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+            attribution=setup_tool
+            page_id="304372516317385"
+            theme_color="#13cf13"
+            logged_in_greeting=""สวัสดีจร้า" มีอะไรให้เราช่วยไหม?"
+            logged_out_greeting=""สวัสดีจร้า" มีอะไรให้เราช่วยไหม?">
+      </div>
+  </body>
+</html>

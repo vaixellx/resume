@@ -1,0 +1,14 @@
+// Base Colors
+$gray-light: #bbbbcc;
+$gray: #888899;
+$gray-900: #333344;
+
+// Brand
+$success: #74a535;
+$secondary: #b2b2b4;
+$info: #0075fb;
+
+$text-muted: $gray;
+
+// Import default theme.
+@import "bootstrap";
