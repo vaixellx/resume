@@ -2,7 +2,7 @@
   location: 'Bangkok, Thailand'
   position:
     - title: 'Director of Engineering'
-      period: 'Aug 2021 - Jan 2022'
+      period: 'Aug 2021 - Current'
   projects:
     - title: 'Opn.Store'
       technology: 'Javascript, Typescript, NodeJS, NextJS, NestJS, ReactJS, GraphQL, RabbitMQ, Postgresql'
