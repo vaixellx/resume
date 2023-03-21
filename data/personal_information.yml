@@ -30,17 +30,21 @@ technical_skills:
     - Ruby on Rails
     - ReactJS
     - AngularJS
+    - VueJS
     - Bootstrap
     - TailwindCSS
   tools:
     - Git
     - Selenium
-    - Zsh
     - Middleman
     - Gatsby
     - Strapi
   other:
     - Firebase
     - Postgresql
+    - MySql
+    - Redis
     - AWS
     - InfluxDB
+    - ElasticSearch
+    - Cassandra

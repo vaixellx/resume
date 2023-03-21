@@ -1,8 +1,22 @@
-- company: 'Opn.Store'
+- company: 'Data Wow'
+  location: 'Bangkok, Thailand'
+  position:
+    - title: 'Senior Technical Team Lead'
+      period: 'Jun 2022 - Current'
+  projects:
+    - title: 'Yay'
+      technology: 'Ruby on Rails, ElasticSearch, Redis, Postgresql, MySql, ReactJS'
+      descriptions:
+      - Japanese SNS platform which has couple millions of users.
+      - Lead smallcross functional team (remotely in Japan) to ensure quality and delivered in time.
+      - Develop and maintain API server for Yay app mainly using Ruby on Rails.
+      - Use complex ElasticSearch query to serve the contents which match to user interests.
+      - Design and develop admin tools for customer support using ReactJS.
+- company: 'Opn'
   location: 'Bangkok, Thailand'
   position:
     - title: 'Director of Engineering'
-      period: 'Aug 2021 - Current'
+      period: 'Aug 2021 - Apr 2022'
   projects:
     - title: 'Opn.Store'
       technology: 'Javascript, Typescript, NodeJS, NextJS, NestJS, ReactJS, GraphQL, RabbitMQ, Postgresql'
