@@ -8,10 +8,11 @@
       technology: 'Ruby on Rails, ElasticSearch, Redis, Postgresql, MySql, ReactJS'
       descriptions:
       - Japanese SNS platform which has couple millions of users.
-      - Lead smallcross functional team (remotely in Japan) to ensure quality and delivered in time.
+      - Lead small cross functional team (remotely in Japan) to ensure quality and delivered in time.
       - Develop and maintain API server for Yay app mainly using Ruby on Rails.
       - Use complex ElasticSearch query to serve the contents which match to user interests.
       - Design and develop admin tools for customer support using ReactJS.
+      - Since april 2024 until now also has a responsibility as "Engineering Manager" (with no title adjustment) on behave of former Engineering manager left the company.
 - company: 'Opn'
   location: 'Bangkok, Thailand'
   position:
