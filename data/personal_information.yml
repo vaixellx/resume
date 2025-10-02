@@ -17,8 +17,8 @@ education:
 english_level:
   reading: 'Excellent'
   writing: 'Good'
-  speaking: 'Communicable'
-  listening: 'Communicable'
+  speaking: 'Good'
+  listening: 'Good'
 technical_skills:
   languages:
     - Ruby
